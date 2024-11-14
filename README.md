@@ -6,7 +6,9 @@ O dataset utilizado foi o microdados do ENEM 2023, disponível nesse link: [Micr
 
 ## Como rodar
 
-Crie um ambiente virtual, instale as dependências e rode o script dentro dos notebooks
+Coloque o dataset `MICRODADOS_ENEM_2023.csv` na pasta `datasets/` e rode o servidor MySQL localmente.
+
+Crie um ambiente virtual, instale as dependências e rode o script dentro dos notebooks.
 
 ### Unix
 
