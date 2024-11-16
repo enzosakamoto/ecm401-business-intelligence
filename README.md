@@ -18,8 +18,9 @@ O dataset utilizado foi a base de microdados do ENEM 2023, disponível nesse lin
 
 ## Como rodar
 
-### Vídeo passo a passo
+### Vídeo com passo a passo
 
+[![Vídeo com passo a passo](https://img.youtube.com/vi/NzI7v51CfVo/sddefault.jpg)](https://youtu.be/NzI7v51CfVo)
 
 ### Instruções - VS Code
 
@@ -50,7 +51,7 @@ CREATE SCHEMA `ENEM_DM`;
 ### Unix
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
