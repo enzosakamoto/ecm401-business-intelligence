@@ -3,9 +3,11 @@
 Projeto de Business Intelligence - DataMart para a disciplina **ECM401 - Banco de Dados**, ministrada pelo professor [Antônio Guardado](https://www.linkedin.com/in/antonio-fernando-nunes-guardado-7bb40b135/).
 
 # Sumário
-  - [Dataset](#dataset)
-  - [Como rodar](#como-rodar)
-    - [Vídeo passo a passo](#vídeo-passo-a-passo)
+- [Dataset](#dataset)
+- [Modelo da base operacional (OLTP)](#modelo-da-base-operacional-oltp)
+- [Modelo Dimensional - DataMart](#modelo-dimensional---datamart)
+- [Como rodar o projeto](#como-rodar-o-projeto)
+    - [Vídeo com passo a passo](#vídeo-com-passo-a-passo)
     - [Instruções - VS Code](#instruções---vs-code)
   - [Como criar um ambiente virtual](#como-criar-um-ambiente-virtual)
     - [Unix](#unix)
@@ -16,11 +18,25 @@ Projeto de Business Intelligence - DataMart para a disciplina **ECM401 - Banco d
 
 O dataset utilizado foi a base de microdados do ENEM 2023, disponível nesse link: [Microdados do ENEM 2023](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem)
 
-## Como rodar
+# Modelo da base operacional (OLTP)
+
+O modelo OLTP foi criado com base no dataset do ENEM 2023, com a finalidade de armazenar os dados de forma normalizada.
+
+![Modelo OLTP](./modelos/OLTP-Imagem.png)
+
+# Modelo Dimensional - DataMart
+
+O modelo dimensional foi criado com base no modelo OLTP, com a finalidade de otimizar as consultas e análises de dados.
+
+![Modelo Dimensional](./modelos/DM-Imagem.png)
+
+# Como rodar o projeto
 
 ### Vídeo com passo a passo
 
 [![Vídeo com passo a passo](https://img.youtube.com/vi/NzI7v51CfVo/sddefault.jpg)](https://youtu.be/NzI7v51CfVo)
+
+***Obs:** no vídeo não foi mencionado como criar um ambiente virtual para instalar as dependências, mas as instruções podem ser encontradas [aqui](#como-criar-um-ambiente-virtual).*
 
 ### Instruções - VS Code
 
@@ -35,7 +51,9 @@ O dataset utilizado foi a base de microdados do ENEM 2023, disponível nesse lin
          ```
 > A URL será `localhost` com usuário `root` e senha `root` e a porta `3306`.
 > 
-3. Crie os schemas no MySQL.
+3. Crie os schemas no MySQL. Duas opções fáceis são:
+   1. Usando o MySQL Workbench
+   2. Rodando via CLI os scripts SQL abaixo:
 
 ```sql
 CREATE SCHEMA `ENEM_OLTP`;
@@ -47,6 +65,8 @@ CREATE SCHEMA `ENEM_DM`;
 6. Rode o script dentro dos notebooks numerados de 1 a 6.
 
 ## Como criar um ambiente virtual
+
+Crie um ambiente virtual para instalar as dependências do projeto.
 
 ### Unix
 
