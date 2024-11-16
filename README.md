@@ -32,8 +32,14 @@ O dataset utilizado foi a base de microdados do ENEM 2023, disponível nesse lin
          docker pull mysql
          docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -dp 3306:3306 mysql
          ```
-
 > A URL será `localhost` com usuário `root` e senha `root` e a porta `3306`.
+> 
+3. Crie os schemas no MySQL.
+
+```sql
+CREATE SCHEMA `ENEM_OLTP`;
+CREATE SCHEMA `ENEM_DM`;
+```
 
 4. Crie um ambiente virtual e instale as dependências. Veja como criar um ambiente virtual [aqui](#como-criar-um-ambiente-virtual).
 5. Instale as extensões do `Jupyter Notebooks` disponíveis nesse [link](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) .
