@@ -20,15 +20,15 @@ O dataset utilizado foi a base de microdados do ENEM 2023, disponível nesse lin
 
 # Modelo da base operacional (OLTP)
 
-O modelo OLTP foi criado com base no dataset do ENEM 2023, com a finalidade de armazenar os dados de forma normalizada.
+O modelo OLTP foi criado com base no dataset do ENEM 2023, com a finalidade de armazenar os dados de forma normalizada. Arquivo `.mwb` disponível [aqui](./modelos/Modelo-OLTP.mwb).
 
-![Modelo OLTP](./modelos/OLTP-Imagem.png)
+![Modelo OLTP](./modelos/OLTP.png)
 
 # Modelo Dimensional - DataMart
 
-O modelo dimensional foi criado com base no modelo OLTP, com a finalidade de otimizar as consultas e análises de dados.
+O modelo dimensional foi criado com base no modelo OLTP, com a finalidade de otimizar as consultas e análises de dados. Arquivo `.mwb` disponível [aqui](./modelos/Modelo-DM.mwb).
 
-![Modelo Dimensional](./modelos/DM-Imagem.png)
+![Modelo Dimensional](./modelos/DM.png)
 
 # Como rodar o projeto
 
