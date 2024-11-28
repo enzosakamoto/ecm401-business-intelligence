@@ -6,7 +6,7 @@ Projeto de Business Intelligence - DataMart para a disciplina **ECM401 - Banco d
 - [Dataset](#dataset)
 - [Modelo da base operacional (OLTP)](#modelo-da-base-operacional-oltp)
 - [Modelo Dimensional - DataMart](#modelo-dimensional---datamart)
-- [Construções Analíticas](#contruções-analiticas)
+- [Construções Analíticas](#construções-analíticas)
 - [Visualização dos Dados](#visualização-dos-dados)
 - [Como rodar o projeto](#como-rodar-o-projeto)
     - [Vídeo com passo a passo](#vídeo-com-passo-a-passo)
@@ -34,11 +34,11 @@ O modelo dimensional foi criado com base no modelo OLTP, com a finalidade de oti
 
 # Construções Analíticas
 
-Foram criadas 5 consultas com funções analíticas, com dois ou três agrupamentos. Disponíveis no notebook [aqui](./src/5%20-%20Selects%20analíticos.ipynb)
+Foram criadas cinco consultas com funções analíticas, contendo dois ou três agrupamentos, disponíveis no seguinte notebook: [aqui](./src/5%20-%20Selects%20analíticos.ipynb)
 
 # Visualização dos Dados
 
-Com o uso das biblioteca pandas, numpy e matplotlib, do python, criamos 6 grágifos com as informações extraídas na base. Visualizações que podem ser executados no notebook [aqui](./src/6%20-%20Visualização%20dos%20dados.ipynb)
+Com o uso das bibliotecas pandas, numpy e matplotlib do Python, criamos seis gráficos com as informações extraídas da base. As visualizações podem ser executadas no seguinte notebook: [aqui](./src/6%20-%20Visualização%20dos%20dados.ipynb)
 
 # Como rodar o projeto
 
