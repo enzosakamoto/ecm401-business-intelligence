@@ -6,6 +6,8 @@ Projeto de Business Intelligence - DataMart para a disciplina **ECM401 - Banco d
 - [Dataset](#dataset)
 - [Modelo da base operacional (OLTP)](#modelo-da-base-operacional-oltp)
 - [Modelo Dimensional - DataMart](#modelo-dimensional---datamart)
+- [Construções Analíticas](#contruções-analiticas)
+- [Visualização dos Dados](#visualização-dos-dados)
 - [Como rodar o projeto](#como-rodar-o-projeto)
     - [Vídeo com passo a passo](#vídeo-com-passo-a-passo)
     - [Instruções - VS Code](#instruções---vs-code)
@@ -29,6 +31,14 @@ O modelo OLTP foi criado com base no dataset do ENEM 2023, com a finalidade de a
 O modelo dimensional foi criado com base no modelo OLTP, com a finalidade de otimizar as consultas e análises de dados. Arquivo `.mwb` disponível [aqui](./modelos/Modelo-DM.mwb).
 
 ![Modelo Dimensional](./modelos/DM.png)
+
+# Construções Analíticas
+
+Foram criadas 5 consultas com funções analíticas, com dois ou três agrupamentos. Disponíveis no notebook [aqui](./src/5%20-%20Selects%20analíticos.ipynb)
+
+# Visualização dos Dados
+
+Com o uso das biblioteca pandas, numpy e matplotlib, do python, criamos 6 grágifos com as informações extraídas na base. Visualizações que podem ser executados no notebook [aqui](./src/6%20-%20Visualização%20dos%20dados.ipynb)
 
 # Como rodar o projeto
 
