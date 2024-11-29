@@ -58,11 +58,11 @@ O processo de ETL foi realizado com o uso de scripts Python e SQL, disponíveis 
 
 # 6) Consultas analíticas
 
-Foram criadas cinco consultas com funções analíticas, contendo dois ou três agrupamentos, disponíveis no [seguinte notebook](./src/5%20-%20Selects%20analíticos.ipynb) ou podendo ser vistas no exemplo em HTML [aqui](./exemplos/5%20-%20Selects%20analíticos.html). 
+Foram criadas cinco consultas com funções analíticas, contendo dois ou três agrupamentos, disponíveis no [seguinte notebook](./src/5%20-%20Selects%20analíticos.ipynb). 
 
 # 7) Visualização dos dados
 
-Com o uso das bibliotecas `pandas`, `numpy` e `matplotlib` do Python, criamos seis gráficos com as informações extraídas dos microdados. As visualizações podem ser executadas no [seguinte notebook](./src/6%20-%20Visualização%20dos%20dados.ipynb) ou vistas no exemplo em HTML [aqui](./exemplos/6%20-%20Visualização%20dos%20dados.html).
+Com o uso das bibliotecas `pandas`, `numpy` e `matplotlib` do Python, foram criados seis gráficos com as informações extraídas dos microdados. As visualizações estão disponíveis no [seguinte notebook](./src/6%20-%20Visualização%20dos%20dados.ipynb).
 
 # Como rodar o projeto
 
