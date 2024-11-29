@@ -120,6 +120,6 @@ pip install -r requirements.txt
 
 # Autores
 
-- [Enzo Sakamoto](https://linkedin.com/in/enzosakamoto)
-- [Flavio Murata](https://linkedin.com/in/02mrt/)
-- [Vinicius Berti](https://linkedin.com/in/vinicius-berti-a80354209/)
+- [Enzo Sakamoto - 21.00210-0](https://linkedin.com/in/enzosakamoto)
+- [Flavio Murata - 21.01192-3](https://linkedin.com/in/02mrt/)
+- [Vinicius Berti - 21.01219-9](https://linkedin.com/in/vinicius-berti-a80354209/)
